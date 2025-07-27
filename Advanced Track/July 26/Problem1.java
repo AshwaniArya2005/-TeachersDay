@@ -1,5 +1,6 @@
 import java.util.*;
-
+//Q) Group Anagrams
+// Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 public class Problem1 {
     static List<List<String>> groupAnagrams(String[] strs){
         if(strs == null || strs.length == 0){

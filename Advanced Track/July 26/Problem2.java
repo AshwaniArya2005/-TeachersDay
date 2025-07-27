@@ -10,7 +10,9 @@ class TreeNode {
           this.right = right;
       }
   }
- 
+//Q) Same Tree
+//Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+
 public class Problem2 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if((p != null && q == null) || (p == null && q != null)){
