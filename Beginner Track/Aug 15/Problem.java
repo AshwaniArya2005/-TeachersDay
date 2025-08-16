@@ -18,7 +18,6 @@ public class Problem {
 
         for (int i = 0; i < t; i++) {
             for (int j = 0; j < n - 1; j++) {
-                // If boy is in front of girl, swap
                 if (arr[j] == 'B' && arr[j + 1] == 'G') {
                     char temp = arr[j];
                     arr[j] = arr[j + 1];
