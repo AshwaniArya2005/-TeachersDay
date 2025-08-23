@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Problem2 {
+    // Two Round Dances
+    // Statement: For n people standing in a line, the task is to split them into
+    // two round dances. Count the number of distinct ways this can be done. A
+    // combinatorics problem that requires careful counting.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

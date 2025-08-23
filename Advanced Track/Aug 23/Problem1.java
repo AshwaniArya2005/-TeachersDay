@@ -1,6 +1,9 @@
 import java.util.*;
 
 public class Problem1 {
+    // Two Round Dances
+    // Statement: Revisiting the round dance problem — ensuring deeper understanding
+    // of combinatorial arrangements and formula application.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
