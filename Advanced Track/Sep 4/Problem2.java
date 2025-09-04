@@ -2,6 +2,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Problem2 {
+    // Bersu Ball
+    // Statement: There are boys and girls with given dancing skills. Pair them such
+    // that their skill difference ≤ 1 and maximize the number of pairs. Requires
+    // greedy matching after sorting.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -9,7 +13,7 @@ public class Problem2 {
         for (int i = 0; i < n; i++) {
             b[i] = sc.nextInt();
         }
-        
+
         Arrays.sort(b);
         int m = sc.nextInt();
         int[] g = new int[m];
@@ -24,11 +28,9 @@ public class Problem2 {
                 j++;
                 res++;
                 i++;
-            } 
-            else if (b[i] < g[j]) {
+            } else if (b[i] < g[j]) {
                 i++;
-            } 
-            else{
+            } else {
                 j++;
             }
         }

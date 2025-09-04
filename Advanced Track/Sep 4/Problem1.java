@@ -1,7 +1,11 @@
 import java.util.*;
 
 public class Problem1 {
-     public static void main(String[] args) {
+    // Kefa and First Steps
+    // Statement: Kefa writes down n integers representing productivity. Find the
+    // length of the longest non-decreasing contiguous segment. Involves simple
+    // iteration and maintaining counters.
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -22,7 +26,6 @@ public class Problem1 {
                 max = curr;
             }
         }
-        
 
         System.out.println(max);
         sc.close();
